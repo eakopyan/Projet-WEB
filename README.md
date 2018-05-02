@@ -9,4 +9,4 @@ Feuilles de style : CSS
 
 Langage de programmation : Python
 
-Structure des données : XML/XHTML
+Structure des données : HTML

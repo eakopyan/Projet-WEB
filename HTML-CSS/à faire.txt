@@ -1,0 +1,8 @@
+accueil :
+rajouter formulaire dynamique (JS) d'inscription/connexion
+
+
+accueil user :
+Bonjour Loïc (mettre nom user)
+
+faire calendrier en plus

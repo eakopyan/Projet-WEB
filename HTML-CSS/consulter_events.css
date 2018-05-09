@@ -1,0 +1,97 @@
+/*
+style.css
+Premier essai de feuille de style sous CSS
+Plus d' infos sur https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/mettre-en-place-le-css
+Et sur le site officiel https://www.w3.org/TR/css-color-3/
+*/
+
+/* On travaille sur la balise body, donc sur TOUTE la page */
+/*
+body
+{
+    background-image: url("bbq.jpg");
+    background-attachment: fixed; l'image de fond est fixe
+    background-repeat: repeat-x;
+    l'image est repetee sur la premiere ligne uniquement
+}
+
+.introduction, em
+{
+    color: teal;
+    text-shadow: 1px 1px 1px black;
+}
+*/
+
+p
+{
+    font-size: 1em; /* taille relative */
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.paragraphTitle1
+{
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.paragraph1
+{
+    font-style: italic;
+    text-align: justify;
+}
+
+h1
+{
+    font-size: 5em;
+    font-family: "Times New Roman", Arial, Verdana, sans-serif;
+    text-align: center;
+    /*border: black groove; /* cadre noir autour du titre */
+    background-color: white;
+    /*box-shadow: 6px 6px 6px black;*/
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+.dessous
+{
+    clear: both; /* remet l'alignement normal apres l'image flottante */
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: teal;
+   font-style: normal;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: none;
+   color: yellow;
+}
+
+/*a:visited l'utilisateur a deja vu la page concernee
+{
+  color: gray;
+}*/
+
+.event
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    border-radius: 15px;
+    padding: 50px;
+}

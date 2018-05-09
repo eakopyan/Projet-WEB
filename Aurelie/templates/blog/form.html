@@ -1,0 +1,6 @@
+{% if envoi %} Votre message a bien été envoyé !{% endif %}
+<form action="{% url "signIn" %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit" href="https://www.youtube.com/watch?v=5yX6NyhCwAI&t=1994s"/>
+</form>

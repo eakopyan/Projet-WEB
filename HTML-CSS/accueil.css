@@ -6,15 +6,16 @@ Et sur le site officiel https://www.w3.org/TR/css-color-3/
 */
 
 /* On travaille sur la balise body, donc sur TOUTE la page */
-/*
+
 body
 {
-    background-image: url("bbq.jpg");
-    background-attachment: fixed; l'image de fond est fixe
+    background-image: url("party.jpg");
+    background-attachment: fixed; /*l'image de fond est fixe*/
     background-repeat: repeat-x;
-    l'image est repetee sur la premiere ligne uniquement
+    /*l'image est repetee sur la premiere ligne uniquement*/
 }
 
+/*
 .introduction, em
 {
     color: teal;
@@ -43,11 +44,19 @@ p
 
 h1
 {
-    font-size: 5em;
-    font-family: "Times New Roman", Arial, Verdana, sans-serif;
+    font-size: 8em;
+    font-family: Arial, fantasy;              /* Arial, Verdana, sans-serif;*/
+    font-variant: small-caps;
+
     text-align: center;
+
+    /*text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px;*/
+    /*text-shadow: GreenYellow 1px 1px, GreenYellow -1px 1px, GreenYellow -1px -1px, GreenYellow 1px -1px;*/
+    text-shadow: GreenYellow 2px 2px, GreenYellow -2px 2px, GreenYellow -2px -2px, GreenYellow 2px -2px;
+
+    color: InfoBackground; /*InfoBackground   rgba(0, 0, 0, 0.5)  */
     /*border: black groove; /* cadre noir autour du titre */
-    background-color: white;
+    background-color: transform;
     /*box-shadow: 6px 6px 6px black;*/
 }
 
@@ -71,7 +80,9 @@ a /* Liens par défaut (non survolés) */
 a:hover /* Apparence au survol des liens */
 {
    text-decoration: none;
-   color: yellow;
+   color: GreenYellow; /* yellow/white */
+   /*text-shadow: black 1px 1px;/*GreenYellow -1px 1px;/*, GreenYellow -1px -1px, GreenYellow 1px -1px;*/
+   text-shadow: 1px 1px 1px yellow;
 }
 
 /*a:visited l'utilisateur a deja vu la page concernee
@@ -79,23 +90,27 @@ a:hover /* Apparence au survol des liens */
   color: gray;
 }*/
 
-.button1
+.button
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 450px;
     text-align: center;
-    font-family: "Times New Roman";
+    font-family: Arial; /* à changer !!! */
+    font-variant: small-caps;
+    font-stretch: extra-condensed;
     font-size: 3.5em;
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
-    background-color: purple;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 0px 0px 2px GreenYellow, 2px 2px 5px 4px InfoBackground inset;
+    color: GreenYellow; /* white/yellow */
+    background-color: InfoBackground; /* purple/green/black */
     border-radius: 20px;
     padding: 50px;
 }
-
+/*
 .button2
 {
     display: block;
@@ -103,12 +118,15 @@ a:hover /* Apparence au survol des liens */
     margin-right: auto;
     width: 450px;
     text-align: center;
-    font-family: "Times New Roman";
+    font-family: Arial, fantasy;
     font-size: 3.5em;
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
-    background-color: purple;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 0px 0px 2px GreenYellow, 2px 2px 5px 4px InfoBackground inset;
+    color: GreenYellow; /* white/yellow  ou  chartreuse/lawngreen
+    background-color: InfoBackground;  purple/green/black  ou   InfoBackground
     border-radius: 20px;
     padding: 50px;
 }
+*/

@@ -1,0 +1,102 @@
+body
+{
+    background-image: url("party.jpg");
+    background-attachment: fixed; /*l'image de fond est fixe*/
+    /*l'image est repetee sur la premiere ligne uniquement*/
+}
+
+
+
+ /*.formulaire
+{
+  color: white; /* white/yellow
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8); /* purple/green/black
+  border-radius: 20px;
+  padding: 200px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  /*text-align: center;
+  text-shadow: 3px 3px 3px black;
+  font-family: Arial; /* à changer !!!
+  font-size: 3.5em;
+  font-variant: small-caps;
+  font-stretch: extra-condensed;
+  box-shadow: 0px 0px 2px GreenYellow, 2px 2px 5px 4px rgba(0, 0, 0, 0.8);
+  float: left;
+}*/
+
+.submit
+{
+  color: GreenYellow;
+  background-color: rgba(0, 0, 0, 0.8); /*rgba(255, 255, 255, 0.2)*/
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial;
+  font-variant: small-caps;
+  font-stretch: extra-condensed;
+  text-shadow: 3px 3px 3px black;
+  border: none;
+  box-shadow: 0px 0px 2px GreenYellow, 2px 2px 5px 4px rgba(0, 0, 0, 0.8);
+}
+
+div
+{
+  display: block;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px;
+  width: 1000px;
+}
+
+label
+{
+  color: GreenYellow; /* white/yellow */
+  display: block;
+	float: left;
+  width: 100px;
+  text-align: left;
+  font-family: Arial;
+  font-variant: small-caps;
+  font-stretch: extra-condensed;
+  text-shadow: 3px 3px 3px black;
+  font-size: 4em;
+  padding: 8px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+input
+{
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  box-shadow: 0px 0px 2px GreenYellow, 2px 2px 5px 4px rgba(0, 0, 0, 0.8);
+}
+
+
+
+form: hover
+{
+  color: white
+}

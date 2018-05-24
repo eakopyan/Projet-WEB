@@ -1,8 +1,23 @@
 accueil :
-rajouter formulaire dynamique (JS) d'inscription/connexion
+rajouter formulaire d'inscription/connexion
+
+formulaire création événement dynamique JS
 
 
 accueil user :
 Bonjour Loïc (mettre nom user)
 
 faire calendrier en plus
+
+déconnexion
+____________________________________________________________________________________________
+
+Les html :
+
+X accueil (connecter/inscrire)
+X accueil utilisateur (créer/consulter)
+consulter ses événements (événements)
+formulaire création événement
+formulaire d'inscription
+formulaire de connexion
+

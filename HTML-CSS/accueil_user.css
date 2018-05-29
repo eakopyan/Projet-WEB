@@ -66,7 +66,7 @@ h1
     clear: both; /* remet l'alignement normal apres l'image flottante */
 }
 
-a /* Liens par défaut (non survolés) */
+a /* Liens par dÃ©faut (non survolÃ©s) */
 {
   color: GreenYellow;
   display: inline-block; /*enlever display: inline-block; si besoin*/
@@ -74,7 +74,7 @@ a /* Liens par défaut (non survolés) */
   text-decoration: none;
   text-shadow: 3px 3px 3px black;
   box-shadow: 0px 0px 2px GreenYellow, 2px 2px 5px 4px rgba(0, 0, 0, 0.8) inset;
-  margin-left: 25px; /*mettre auto si ça passe mal sur certains écrans*/
+  margin-left: 25px; /*mettre auto si Ã§a passe mal sur certains Ã©crans*/
   margin-right: 25px;
   width: 450px;
   font-size: 3.5em;
@@ -94,48 +94,32 @@ a:hover /* Apparence au survol des liens */
    text-shadow: 1px 1px 1px yellow;
 }
 
-/*a:visited l'utilisateur a deja vu la page concernee
-{
-  color: gray;
-}*/
-
 .button
 {
 
   text-align: center;
 }
 
-/*
-.button
-{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    text-align: center;
-    font-family: Verdana;
-    font-size: 2em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-    background-color: purple;
-    border-radius: 15px;
-    padding: 50px;
-}*/
-/*
-.button2
-{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    text-align: center;
-    font-family: Verdana;
-    font-size: 2em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-    background-color: purple;
-    border-radius: 15px;
-    padding: 50px;
-}*/
+
+#recherche{
+    position:relative;
+    width:1040px;
+    height:auto;
+    display:inline-block;
+}
+#recherche .text{
+    width:300px;
+    float:left;    
+}
+#recherche .champ{
+    width:600px;
+    height:35px;
+    float:left;
+}
+#recherche .bouton{
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border:none;
+    float:left;
+}
